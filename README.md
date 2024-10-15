@@ -1,6 +1,6 @@
 # AtliQ Hardware - Business 360 - Dashboard
 
-### Dashboard Link : https://app.powerbi.com/view?r=eyJrIjoiMzBjNDcyMGItNDUwZS00YTk2LWIwNzgtMzM1YjE4NGFmMDgxIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=6d9a6c0ea22270760cec
+### Dashboard Link : https://shorturl.at/uIY8d
 
 ## Problem Statement
 
