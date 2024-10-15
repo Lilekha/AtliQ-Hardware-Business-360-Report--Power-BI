@@ -59,7 +59,7 @@ These reports will not only highlight key performance indicators but also uncove
 - Step 19 : Built the Executive view which includes: Market share trends, yearly trends of key metrics, insights by sub zone, top 5 products and customers by revenue, net sales by channel and divison.
 
  
- - Step 20 : The report was then published to Power BI Service.
+ - Step 20 : The report was then published to Power BI Service after making appropriate changes as per the suggestions made in the meetings with the stakeholders.
  
  
 # Home Page
