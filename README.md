@@ -36,17 +36,6 @@ These reports will not only highlight key performance indicators but also uncove
 
 - Step 11 : Created a static table with P&L rows that could serve as a template for P&L visual. Created a DAX measure to connect P&L rows table with different measures that we created earlier with the use of SWITCH formula.
 
-           Despite improved forecast accuracy, the company continues to face challenges with stockouts and forecasting errors, particularly for certain customers and products.
-
-  
-
-- Step 12 : Created LY (Last Year) column for P&L visual. Added fiscal year description as a calculated column for better readability by appending “ Est” (Estimated Values) to a future year.
-
-- Step 13 : creating a single DAX measure called P & L Final value that can show selected year’s values in P&L visual using DAX functions like: ALLNOBLANKROW, UNION, SELECTEDVALUE, MAX.
-
-- Step 14 : Built Finace view which includedes: a line chart, top products, categories, and, segments and top regions, and markets using a matrix visual.
-        
-
           P&L Values = var res = SWITCH (
         TRUE(),
         MAX('P & L Rows'[Order]) = 1, [GS $]/10^6,
@@ -69,8 +58,20 @@ These reports will not only highlight key performance indicators but also uncove
          )
         return 
         IF(HASONEVALUE('P & L Rows'[Description]), res, ([NS $]/10^6))
+  
 
+- Step 12 : Created LY (Last Year) column for P&L visual. Added fiscal year description as a calculated column for better readability by appending “ Est” (Estimated Values) to a future year.
 
+- Step 13 : Created a single DAX measure called P & L Final value that can show selected year’s values in P&L visual using DAX functions like: ALLNOBLANKROW, UNION, SELECTEDVALUE, MAX.
+         P&L Final Value = SWITCH(TRUE(),SELECTEDVALUE(fiscal_year[FY_Description]) = MIN('P&L Columns'[Column Header]), [P&L Values],
+    MIN('P&L Columns'[Column Header])= "P&L Values", [P&L Values],
+    MIN('P&L Columns'[Column Header])= "BM", [P&L BM],
+    MIN('P&L Columns'[Column Header])= "Change", [Change],
+    MIN('P&L Columns'[Column Header])= "Change %", [Change %])
+    
+
+- Step 14 : Built Finace view which includedes: a line chart, top products, categories, and, segments and top regions, and markets using a matrix visual.
+        
         
 - Step 15 : Built Sales view that includes: Top customers table with Net Sales (NS), Gross Margin (GM), and Gross Margin % (GM%).Scatter chart having Net Sales and Gross Margin on its axis and showing market and region as the bubbles on the chart. A table representing top products (along with category and segments). A donut chart showing a percentage contribution of Net Sales, Post Invoice Deductions, Pre-Invoice Deductions. Another donut chart showing a percentage breakdown of Total COGS and Gross Margin.
 
