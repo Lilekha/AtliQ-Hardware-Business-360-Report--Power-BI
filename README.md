@@ -63,12 +63,16 @@ These reports will not only highlight key performance indicators but also uncove
 - Step 12 : Created LY (Last Year) column for P&L visual. Added fiscal year description as a calculated column for better readability by appending “ Est” (Estimated Values) to a future year.
 
 - Step 13 : Created a single DAX measure called P & L Final value that can show selected year’s values in P&L visual using DAX functions like: ALLNOBLANKROW, UNION, SELECTEDVALUE, MAX.
-         P&L Final Value = SWITCH(TRUE(),SELECTEDVALUE(fiscal_year[FY_Description]) = MIN('P&L Columns'[Column Header]), [P&L Values],
-    MIN('P&L Columns'[Column Header])= "P&L Values", [P&L Values],
-    MIN('P&L Columns'[Column Header])= "BM", [P&L BM],
-    MIN('P&L Columns'[Column Header])= "Change", [Change],
-    MIN('P&L Columns'[Column Header])= "Change %", [Change %])
+
+          P&L Final Value = SWITCH(TRUE(),SELECTEDVALUE(fiscal_year[FY_Description]) = MIN('P&L Columns'[Column Header]), [P&L Values],
+          MIN('P&L Columns'[Column Header])= "P&L Values", [P&L Values],
+          MIN('P&L Columns'[Column Header])= "BM", [P&L BM],
+          MIN('P&L Columns'[Column Header])= "Change", [Change],
+          MIN('P&L Columns'[Column Header])= "Change %", [Change %])
     
+       
+
+  
 
 - Step 14 : Built Finace view which includedes: a line chart, top products, categories, and, segments and top regions, and markets using a matrix visual.
         
