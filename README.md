@@ -35,7 +35,9 @@ These reports will not only highlight key performance indicators but also uncove
 - Step 10 : Created various DAX measures that were used to build visuals for the finance view.
 
 - Step 11 : Created a static table with P&L rows that could serve as a template for P&L visual. Created a DAX measure to connect P&L rows table with different measures that we created earlier with the use of SWITCH formula.
-  
+
+  Despite significant overall revenue growth, the company missed its 2022 targets  by 1.86% and faces challenges in specific regions and product segments.
+
 
 - Step 12 : Created LY (Last Year) column for P&L visual. Added fiscal year description as a calculated column for better readability by appending “ Est” (Estimated Values) to a future year.
 
@@ -68,24 +70,7 @@ These reports will not only highlight key performance indicators but also uncove
 # Finance View
 ![Screenshot 2024-10-15 151408](https://github.com/user-attachments/assets/e2287c21-0c41-4321-bb48-874fbe5f02e1)
 
-# Sales View
-![Screenshot 2024-10-15 151428](https://github.com/user-attachments/assets/5ed76fb3-f6e4-4272-98c8-113fb63c0527)
-
-# Marketing View
-![Screenshot 2024-10-15 151448](https://github.com/user-attachments/assets/eb38e778-458f-4110-b4ee-a9e3dc1437ae)
-
-# Supply Chain View
-![Screenshot 2024-10-15 151504](https://github.com/user-attachments/assets/62bbfcc7-fa7f-4227-908b-94f188b2d037)
-
-# Executive View
-![Screenshot 2024-10-15 151524](https://github.com/user-attachments/assets/90b78675-140a-4e4c-9848-82fa9a37f0c5)
-
-
-# Insights
-
-Following inferences can be drawn from the dashboards;
-
-### [1] From Finance View
+### [1] Insights from Finance View
 
 - Revenue Growth: The company experienced substantial revenue growth from 2018 to 2022, but fell short of its 2022 targets by 1.86%.
 - Regional Performance: While most regions demonstrated strong growth, Latin America, particularly Colombo, underperformed.
@@ -96,7 +81,10 @@ Following inferences can be drawn from the dashboards;
            Despite significant overall revenue growth, the company missed its 2022 targets  by 1.86% and faces challenges in specific regions and product segments.
 
 
-### [2] From Sales View
+# Sales View
+![Screenshot 2024-10-15 151428](https://github.com/user-attachments/assets/5ed76fb3-f6e4-4272-98c8-113fb63c0527)
+
+### [2] Insights from Sales View
 
 - Customer Performance: 'Nova' has consistently generated the lowest net sales from 2020 to 2022, despite maintaining a gross margin of 25-30%.
 - Discounting Strategy: The company's sales department appears to be offering significant discounts to 'Nova,' but this has not translated into higher sales.
@@ -106,7 +94,10 @@ Following inferences can be drawn from the dashboards;
            Despite consistent discounts, 'Nova' remains a low-performing customer with the lowest gross margin. The company's overall sales strategy appears to rely heavily on discounting, leading to lower margins.
 
 
-### [3] From Marketing View
+# Marketing View
+![Screenshot 2024-10-15 151448](https://github.com/user-attachments/assets/eb38e778-458f-4110-b4ee-a9e3dc1437ae)
+
+### [3] Insights from Marketing View
 
 - Product Performance: Notebooks have high sales but low margins, while peripherals and accessories have low sales and margins.
 - Profitability Analysis: Net profit percentage follows a similar pattern, indicating a need to increase margins and reduce operational costs.
@@ -118,7 +109,12 @@ Following inferences can be drawn from the dashboards;
            The company faces challenges in balancing profitability and sales volume across product segments. Strategic adjustments are needed to improve margins, reduce costs, and optimize product positioning.
 
 
-### [4] From Supply Chain View
+
+
+# Supply Chain View
+![Screenshot 2024-10-15 151504](https://github.com/user-attachments/assets/62bbfcc7-fa7f-4227-908b-94f188b2d037)
+
+### [4] Insights from Supply Chain View
 
 - Forecast Accuracy: The forecast accuracy has increased by 1.2% compared to the previous year, reaching 81.17% in the current year.
 - Stockouts and Errors: Despite the improved accuracy, the company still experienced 3472.7K item stockouts and 6899K items were wrongly forecasted in 2022.
@@ -126,6 +122,8 @@ Following inferences can be drawn from the dashboards;
 
            Despite improved forecast accuracy, the company continues to face challenges with stockouts and forecasting errors, particularly for certain customers and products.
 
+# Executive View
+![Screenshot 2024-10-15 151524](https://github.com/user-attachments/assets/90b78675-140a-4e4c-9848-82fa9a37f0c5)
 
 ### [5] From Executive View
 
@@ -133,5 +131,20 @@ Following inferences can be drawn from the dashboards;
 - Performance Improvements: Forecast accuracy, net sales, and gross margin percentage have all improved compared to previous years.
 
            Atliq has rapidly gained market share since 2021, but profitability remains a challenge, despite improvements in forecast accuracy, net sales, and gross margin.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
            
 
