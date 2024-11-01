@@ -1,6 +1,6 @@
 # AtliQ Hardware - Business 360 - Dashboard
 
-### Dashboard Link : https://shorturl.at/uIY8d
+### Dashboard Link : https://shorturl.at/pl13k
 
 ## Problem Statement
 
